@@ -44,9 +44,12 @@ Preprocessing steps included:
 All models follow this high-level structure:
 
 - 🔹 **Embedding Layer** (pre-trained or free)
-- 🔹 **Bi-LSTM Encoder**
-- 🔹 **Attention Mechanism** (Bahdanau, Luong, or Scaled Dot-Product)
-- 🔹 **Classification Decoder**
+- 🔹 **Bi-LSTM Encoder** &  **Classification Decoder** (Seq2Seq)
+- 🔹 **Attention Mechanism** 
+  -   Bahdanau
+  -   Luong
+  -   Scaled Dot-Product
+
 
 ---
 
@@ -89,6 +92,7 @@ All models follow this high-level structure:
 - **PyTorch**
 - **Gensim** (Word2Vec)
 - **Zemberek** (Turkish NLP)
+- **LLM**
 - **Scikit-learn**
 - **Matplotlib / Seaborn**
 
