@@ -7,6 +7,7 @@ It focuses on classifying Turkish tweets into one of three categories: **None (n
 ## 📌 Project Overview
 
 We implemented multiple classification models using **Encoder-Decoder architectures** combined with various **attention mechanisms**:
+![general_scheme-min](https://github.com/user-attachments/assets/a2e0bc4c-ea87-4b1f-8aff-8f96845e48ff)
 
 - Additive Attention (Bahdanau)
 - Luong (Dot Product) Attention
@@ -99,4 +100,4 @@ All models follow this high-level structure:
 ---
 
 ## 📂 Repository Structure
-
+Image and detailed subject : https://lena-voita.github.io/nlp_course/seq2seq_and_attention.html
